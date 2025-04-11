@@ -1,35 +1,20 @@
 ---
-# You can also start simply with 'default'
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Welcome to Slidev
+theme: default
+background: ./images/programming.avif
+title: The Programming Merit Badge
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-# apply unocss classes to the current slide
+  Presentation of Programming Basics for the Programming Merit Badge.
 class: text-center
-# https://sli.dev/features/drawing
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: fade
-# enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
-# open graph
-# seoMeta:
-#  ogImage: https://cover.sli.dev
 fonts:
    sans: Robot
    weights: 
      - 400
      - 400
      - 600
-   
 ---
 
 # Programming Basics
@@ -184,27 +169,28 @@ Sitting and staring at a screen can make you forget to drink water or rest your 
 
 ---
 
-# 1800s - The First "Program"
+# 🧮 1800s - The Babbage Engine
+
+Charles Babbage conceived of the "Difference Engine" to perform complex calculations using an analog "automaton".
+
+<video width="75%" controls>
+  <source src="./videos/False%20Dawn%20-%20The%20Babbage%20Engine.mp4" type="video/mp4">
+</video>
+
+---
+layout: image-right
+image: ./images/Ada_Lovelace_(cropped).jpg
+---
+
+# 🧮 1800s - The First "Program"
 
 Ada Lovelace, a British mathematician, wrote the first algorithm meant for a machine (Charles Babbage’s Analytical Engine).
 
 She imagined a machine that could follow instructions—before computers even existed!
 
-<img 
-class="absolute right-25" width="25%"
-src="./images/Ada_Lovelace_(cropped).jpg" />
-
-<div class="absolute bottom-20">📅 Year: 1843</div>
-<div class="absolute bottom-10">📚 Source: Computer History Museum</div>
-
 ---
-
-# 🧮 The Babbage Engine
-
-<video width="85%" height="85%" controls>
-  <source src="./videos/False%20Dawn%20-%20The%20Babbage%20Engine.mp4" type="video/mp4">
-</video>
-
+layout: image-left
+image: https://upload.wikimedia.org/wikipedia/commons/d/d3/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg
 ---
 
 # 🧮 1940s – The First Computers
@@ -229,13 +215,29 @@ This is when programming started to look more like math or code rather than wire
 
 ---
 
-# 🧑‍💻 1960s – Software Engineering Becomes a Thing
+# 💻 1950s – Programming Languages Are Born
 
-## The term “software engineering” was coined during a 1968 NATO meeting. Engineers realized programming was becoming a serious job and needed better structure.
+<img width="90%" src="https://upload.wikimedia.org/wikipedia/commons/5/58/FortranCardPROJ039.agr.jpg" />
 
-<div class="absolute bottom-10">📚 Source: NATO Software Engineering Conference Report</div>
+<div class="absolute bottom-10">📚 Source: IBM Archives</div>
 
 ---
+layout: image-right
+image: https://upload.wikimedia.org/wikipedia/commons/d/db/Margaret_Hamilton_-_restoration.jpg
+---
+# 🧑‍💻 1960s – Software Engineering Becomes a Thing
+
+## The term "software engineering" was coined in 1963 by Margaret Hamilton, a computer scientist at MIT, while working on the software for the Apollo spacecraft.
+
+<div class="absolute bottom-10">📚 Source: MIT Lincoln Laboratory</div>
+
+---
+layout: two-cols
+---
+
+<img width="90%" src="https://upload.wikimedia.org/wikipedia/commons/3/39/C_Hello_World_Program.png" />
+
+::right::
 
 # 👩‍💻 1970s – More Powerful Languages & Operating Systems
 
@@ -244,6 +246,9 @@ This is when programming started to look more like math or code rather than wire
 
 <div class="absolute bottom-10">📚 Source: Bell Labs History</div>
 
+---
+layout: image-right
+image: ./images/personal-computer.webp
 ---
 
 # 🖥️ 1980s – Personal Computers Arrive
@@ -256,6 +261,9 @@ This era made programming accessible to everyone—not just scientists.
 <div class="absolute bottom-10">📚 Source: Computer History Museum – Personal Computers</div>
 
 ---
+layout: iframe-right
+url: https://info.cern.ch/hypertext/WWW/TheProject.html
+---
 
 # 🌐 1990s – The Web & Java
 
@@ -265,6 +273,10 @@ This era made programming accessible to everyone—not just scientists.
 <div class="absolute bottom-10">📚 Source: World Wide Web Foundation</div>
 
 ---
+layout: image-left
+image: ./images/iphone.png
+---
+
 
 # 📱 2000s – Mobile Apps & Open Source
 
@@ -275,6 +287,8 @@ This era made programming accessible to everyone—not just scientists.
 <div class="absolute bottom-10">📚 Source: Apple Keynote Archive – iPhone Launch</div>
 
 ---
+layout: two-cols
+---
 
 # ☁️ 2010s – Cloud Computing & Coding for All
 
@@ -284,8 +298,14 @@ This era made programming accessible to everyone—not just scientists.
 <div class="absolute bottom-20">📚 Source: MIT Scratch</div>
 <div class="absolute bottom-10">📚 Source: Code.org</div>
 
----
+::right::
 
+<img width="75%" src="https://rigaux.org/language-study/diagram-light.png"/>
+
+---
+layout: image-left
+image: ./images/ai-scout.png
+---
 # 🤖 2020s – AI and the Future of Code
 
 - AI tools like ChatGPT started helping programmers write code faster.
@@ -295,8 +315,10 @@ This era made programming accessible to everyone—not just scientists.
 <div class="absolute bottom-10">📚 Source: OpenAI Blog</div>
 
 ---
+layout: statement
+---
 
-# 🏕️ Why This Matters in Scouting
+# Why This Matters in Scouting
 
 ### Programming teaches problem-solving, creativity, and resilience. Whether you’re building a website, making a game, or helping your patrol organize an event—code is a superpower!
 
@@ -308,7 +330,7 @@ Four Types of Intellectual Property That Protect Computer Programs
 
 <v-clicks>
 
-## Copyright
+## © Copyright
 
 - Protects the written code (like protecting the words in a book).
 - Automatically given to the creator when the code is written.
@@ -328,7 +350,7 @@ Four Types of Intellectual Property That Protect Computer Programs
 
 <v-clicks>
 
-## Trademarks
+## Trademarks ™
 
 - Protect brand names, logos, and icons (e.g., the Windows or Apple logos).
 - Help users know who made the software.
@@ -342,7 +364,7 @@ Four Types of Intellectual Property That Protect Computer Programs
 
 ---
 
-# Toolchains, Compilers and Interpreters, Oh My!
+# 🛠️ Toolchains, Compilers and Interpreters, Oh My!
 
 |                                              |                                                                                                                                                                                       |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -358,14 +380,22 @@ Four Types of Intellectual Property That Protect Computer Programs
 
 ---
 
-# Tools We Will Be Using
+# 🛠️ Tools We Will Be Using
 
 ## Thanks to the power of the interwebs, we can write basic applications in a web browser!
-
-## [www.mycompiler.io (All Languages Except C#)](https://www.mycompiler.io)
 <br/>
 
-## [.NET Fiddle (C#)](https://dotnetfiddle.net)
+<h2>
+
+|                       |                                 |
+| --------------------- | ------------------------------- |
+| **Scratch**           | scratch.mit.edu/projects/editor |
+| **JS Fiddle**         | jsfiddle.net                    |
+| **Python Fiddle**     | python-fiddle.com               |
+| **.NET Fiddle**       | dotnetfiddle.net                |
+| **Sphero Edu Editor** | edu.sphero.com/code             |
+
+</h2>
 
 ---
 
@@ -377,9 +407,17 @@ Four Types of Intellectual Property That Protect Computer Programs
 # Python
 print("Hello, World!")
 ```
+
 ```csharp
 // C#
-Console.WriteLine("Hello, World!");
+using System;
+namespace MyProgram
+class Program {
+    void static main(string[] args) {
+        Console.WriteLine("Hello, World!");
+    }
+}
+
 ```
 ```javascript
 // JavaScript
@@ -399,11 +437,13 @@ console.log("Hello, World!");
 name = "Alex"
 age = 15
 ```
+
 ```csharp
 // C#
 string name = "Alex";
 int age = 15;
 ```
+
 ```javascript
 // Javascript
 let name = "Alex";
@@ -486,12 +526,14 @@ if (age >= 18) {
 for i in range(3):
     print(i)
 ```
+
 ```csharp
 // C#
 for (int i = 0; i < 3; i++) {
     Console.WriteLine(i);
 }
 ```
+
 ```javascript
 // Javascript
 for (let i = 0; i < 3; i++) {
@@ -502,6 +544,7 @@ for (let i = 0; i < 3; i++) {
 ---
 
 # Functions
+
 - Reusable blocks of code
 
 ```python
@@ -509,12 +552,14 @@ for (let i = 0; i < 3; i++) {
 def greet(name):
     print("Hi, " + name)
 ```
+
 ```csharp
 // C#
 void Greet(string name) {
     Console.WriteLine("Hi, " + name);
 }
 ```
+
 ```javascript
 // Javascript
 function greet(name) {
@@ -525,19 +570,92 @@ function greet(name) {
 ---
 
 # Arrays & Lists
+
 - Store multiple values
 
 ```python
 ## Python
 colors = ["red", "blue", "green"]
 ```
+
 ```csharp
 // C#
 string[] colors = [ "red", "blue", "green" ];
 ```
+
 ```javascript
 // Javascript
 let colors = ["red", "blue", "green"];
+```
+
+---
+
+# Functions
+
+- Functions are reusable blocks of code that perform a specific task.
+- They help make your code modular and easier to read.
+
+```python
+# Python
+def greet(name):
+    print("Hi, " + name)
+
+# Call the function
+greet("Alex")
+```
+
+```csharp
+// C#
+void Greet(string name) {
+    Console.WriteLine("Hi, " + name);
+}
+
+// Call the function
+Greet("Alex");
+```
+
+```javascript
+// JavaScript
+function greet(name) {
+    console.log("Hi, " + name);
+}
+
+// Call the function
+greet("Alex");
+```
+
+---
+
+# Functions
+
+- Functions are reusable blocks of code that perform a specific task.
+- They help make your code modular and easier to read.
+
+```csharp
+// C#
+void Greet(string name) {
+    Console.WriteLine("Hi, " + name);
+}
+
+// Call the function
+Greet("Alex");
+```
+
+---
+
+# Functions
+
+- Functions are reusable blocks of code that perform a specific task.
+- They help make your code modular and easier to read.
+
+```javascript
+// JavaScript
+function greet(name) {
+    console.log("Hi, " + name);
+}
+
+// Call the function
+greet("Alex");
 ```
 
 ---
@@ -550,22 +668,28 @@ let colors = ["red", "blue", "green"];
 # Python
 # This is a comment
 ```
+
 ```csharp
 // C#
 // This is a comment
 ```
+
 ```javascript
 // Javascript
 // This is a comment
 ```
 
 ---
+layout: statement
+---
 
 # Summary
 
-✅ Programming = instructing computers  
-✅ Core concepts: variables, types, conditionals, loops, functions  
-✅ Python, C#, JavaScript share many similarities
+## ✅ Programming = instructing computers
+
+## ✅ Core concepts: variables, types, conditionals, loops, functions  
+
+## ✅ Python, C#, JavaScript share many similarities
 
 ---
 
@@ -580,10 +704,16 @@ print("Hello, " + name)
 ```
 
 ---
+layout: cover
+---
 
-# Example App:
+# Example Apps
 
-## Number Guessing Game 🎲 [Python]
+<AutoFitText :max="200" :min="100" modelValue="Let's write some code!"/>
+
+---
+
+# ⚙️ Number Guessing Game 🎲 [Python]
 
 ```python
 import random
@@ -602,9 +732,7 @@ else:
 
 ---
 
-# Example App:
-
-## Simple Calculator 🧮 [C#]
+# ⚙️ Simple Calculator 🧮 [C#]
 
 ```csharp
 Console.Write("First number: ");
@@ -626,9 +754,7 @@ else
 
 ---
 
-# Example App:
-
-## Name Length Checker 🧪 [Javascript]
+# ⚙️ Name Length Checker 🧪 [Javascript]
 
 ```javascript
 let name = prompt("Enter your name:");
@@ -645,12 +771,20 @@ if (name.length > 10) {
 
 ---
 
-# Questions?
+# Projects Time
 
-Thanks for learning with us!
+## ✅ Pick 1 project for each language (Javascript, Python, C#) and let's implement them
+<br/>
+
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://bit.ly/mb-project-list
+<br/>
+<br/>
+
+## ✅ Bonus: Implement an app to navigate a maze using Sphero
 
 ---
-
+layout: end
+---
 # Next Steps
 
 - Practice each concept
