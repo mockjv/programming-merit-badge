@@ -45,6 +45,18 @@ src="./images/tech.png" />
 
 </v-clicks>
 
+----
+
+# What Got Me Interested In Programming?
+
+<v-clicks>
+
+## SUPER BUNNY!
+
+<Youtube width="75%" height="75%" id="Rmv7ZWAMVx4" />
+
+</v-clicks>
+
 ---
 
 # What's Always First In Any Scouting Activity?
@@ -584,6 +596,65 @@ string[] colors = [ "red", "blue", "green" ];
 ```javascript
 // Javascript
 let colors = ["red", "blue", "green"];
+```
+
+---
+
+# Arrays & List Operations
+
+- Get information about the array or list
+
+```python
+## Python
+colors = ["red", "blue", "green"]
+print(len(colors))  # Output: 3
+```
+
+```csharp
+// C#
+string[] colors = { "red", "blue", "green" };
+Console.WriteLine(colors.Length);  // Output: 3
+```
+
+```javascript
+// Javascript
+let colors = ["red", "blue", "green"];
+console.log(colors.length);  // Output: 3
+```
+
+---
+
+# For Each Loops
+
+- Repeat actions against a list or array
+
+```python
+# Python
+colors = ["red", "blue", "green"]
+for color in colors:
+    print(color)
+```
+
+```csharp
+// C#
+string[] colors = { "red", "blue", "green" };
+foreach (string color in colors) {
+    Console.WriteLine(color);
+}
+```
+
+---
+
+# For Each Loops
+
+- Repeat actions against a list or array
+
+```javascript
+// Javascript
+let colors = ["red", "blue", "green"];
+for (let color of colors) {
+    console.log(color);
+}
 ```
 
 ---
