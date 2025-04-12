@@ -455,10 +455,10 @@ var val = "Test";
 
 | Type       | Python  | C#       | JavaScript |
 | ---------- | ------- | -------- | ---------- |
-| Text       | `str`   | `string` | `string`   |
 | Number     | `int`   | `int`    | `number`   |
 | Decimal    | `float` | `double` | `number`   |
 | True/False | `bool`  | `bool`   | `boolean`  |
+| Text       | `str`   | `string` | `string`   |
 
 ---
 
