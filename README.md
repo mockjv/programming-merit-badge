@@ -6,6 +6,10 @@ You’re welcome to use, fork, or contribute improvements to this content!
 
 ![Example slide](./images/The%20Programming%20Merit%20Badge%20-%20Slidev.png)
 
+## Additional Materials
+
+- [Project Ideas](project-ideas.md)
+
 ## Quickstart
 
 To start the slide show:
