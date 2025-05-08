@@ -1,0 +1,13 @@
+.slidev-layout {
+  p {
+    font-size: 25px;
+  }
+
+  ul {
+    font-size: 20px;
+  }
+
+  code {
+    font-size: 18px;
+  }
+}
