@@ -22,6 +22,15 @@ fonts:
 
 ### By Jason Mock, Software Architect
 
+<br/>
+<br/>
+
+##### <mdi-git /> https://github.com/mockjv/programming-merit-badge
+
+<br/>
+
+##### <mdi-web /> https://programming-mb.jasonmock.com
+
 ---
 
 # Who am I
@@ -845,7 +854,7 @@ if (name.length > 10) {
 ## ✅ Pick 1 project for each language (Javascript, Python, C#) and let's implement them
 <br/>
 
-## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://bit.ly/mb-project-list
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://bit.ly/mb-project-ideas
 <br/>
 <br/>
 
